@@ -645,6 +645,48 @@ body {
 
     
 }
+      /* Responsive Adjustments */
+@media (max-width: 992px) {
+    .card {
+        flex: 1 1 calc(50% - 2rem);
+    }
+}
+
+@media (max-width: 768px) {
+    .card {
+        flex: 1 1 100%;
+    }
+
+    .feedback-and-image {
+        flex-direction: column;
+    }
+
+    .feedback-and-image .col-md-6 {
+        padding: 0;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 0.9rem;
+    }
+
+    form button {
+        padding: 0.75rem 1.5rem;
+    }
+}
 
     </style>
 </head>
